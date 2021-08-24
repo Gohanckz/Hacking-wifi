@@ -2,3 +2,61 @@
 
 1. Listas interfaces de red
 
+```
+ifconfig
+```
+
+2. Ver información de redes
+
+```
+iwconfig
+```
+
+3. Ver saltos de equipo que se necesitan para llegar al equipo
+
+```
+traceroute <host>
+```
+
+4. Ver ruta que usa nuestro equipo Linux
+
+```
+route -n
+```
+
+5. Ver si DNS esta funcionando
+
+```
+dig <host>
+```
+
+6. Ver configuración de red
+
+```
+ethtool <Interfaz_red>
+```
+
+7. Listar tarjetas de red
+
+```
+ip addr ls
+```
+
+8. Ver saltos de los routers
+
+
+```
+1. apt install mtr
+2. mtr <host>
+```
+
+9. Ver información de un sitio
+
+```
+nslookup <ip>
+```
+
+10. Ver dirección IP
+```
+hostname -I
+```
